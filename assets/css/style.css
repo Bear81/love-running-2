@@ -3,7 +3,7 @@
 
 
 /* asterisk wildcard selector to override default sty;les added by the browser testing */
-*   {
+* {
     padding: 0;
     margin: 0;
     box-sizing: content-box;
@@ -16,10 +16,11 @@ body {
     flex-direction: column;
     /* Generiic project styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
-header  {
+header {
     background-color: lightcoral;
 }
 
@@ -34,5 +35,3 @@ main {
 footer {
     background-color: orange;
 }
-
-
