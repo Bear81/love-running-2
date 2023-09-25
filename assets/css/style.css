@@ -1,28 +1,29 @@
-/* Google fonts import */
+/* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
-/* asterisk wildcard selector to override default sty;les added by the browser testing */
+/* asterisk wildcard  selector to override default styes */
 * {
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
-/* General rules */
+/* General Styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generiic project styles */
+    /* Generic Project Styles */
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato' , sans-serif;
+
 }
+
 
 /* Header */
 header {
     background-color: #ffffff;
-    Padding: 0 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -37,34 +38,34 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+h1  {
+   font-family: 'Oswald' , sans-serif; 
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #252525;
 }
 
-#menu   {
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu > li  {
+#menu > li {
     margin-bottom: 1em;
 }
 
 .active {
-    margin-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
-nav {
+/* Nav bar styles  with droopdown toggle */
+nav   {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -75,14 +76,22 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
 
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
-/* Main Content */
+/* Main */
 main {
     background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
+    /* Make main content take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
+
+
 
 /* Footer */
 footer {
