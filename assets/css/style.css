@@ -224,6 +224,13 @@ main {
     display: flex;
     flex-direction: column;
     background: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+form h2 {
+    color: #fafafa;
 }
 
 /* Media query for landscape phones (576px and up) */
