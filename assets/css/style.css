@@ -218,6 +218,14 @@ hr {
 
 }
 
+/* Signup Page Styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: url(../images/signup-image.webp);
+}
+
 /* Media query for landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
