@@ -241,6 +241,12 @@ hr {
          }
 }
 
+/* Meet-up Times */
+
+#section {
+    display: flex;
+}
+
 
 /* Media Query for Laptops */
 
