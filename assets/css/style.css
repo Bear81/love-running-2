@@ -279,7 +279,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    ...
+    
 
     /* Form */
     #signup {
@@ -303,7 +303,7 @@ main {
         color: #454b1b;
     }
 }
-}
+
 
 /* Media query for landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
